@@ -1,0 +1,1251 @@
+{
+ "meta": {
+  "lang": "en"
+ },
+ "ui": {
+  "modes": {
+   "showcase": "Showcase",
+   "loop": "Demo",
+   "explore": "Explore",
+   "learn": "Learn",
+   "artisan": "Artisans",
+   "parts": "Parts",
+   "whatif": "What if",
+   "glossary": "Glossary"
+  },
+  "common": {
+   "close": "Close",
+   "sound": "Sound",
+   "on": "On",
+   "off": "Off"
+  },
+  "settings": {
+   "title": "Settings",
+   "case": "Case",
+   "steel": "Steel",
+   "rose": "Rose gold",
+   "yellow": "Yellow gold",
+   "dial": "Dial",
+   "blue": "Blue",
+   "silver": "Silver",
+   "black": "Black",
+   "strap": "Strap",
+   "leather": "Leather",
+   "metal": "Bracelet",
+   "choreo": "Explode style",
+   "cycle": "Cycle",
+   "speed": "Demo speed",
+   "labels": "Part labels",
+   "quality": "Quality",
+   "auto": "Auto",
+   "low": "Light",
+   "medium": "Standard",
+   "high": "High",
+   "qualityNote": "Rendering quality changed.",
+   "about": "<p><b>Watch3D</b> — haruka_apps Calibre HA-01</p><p>Every shape, finish and sound is generated in code. Not affiliated with any real brand or model.</p><p>Keys: 1–8 switch modes, ← → move through tours, Esc closes the panel.</p><p>© 2026 haruka_apps · MIT License · Three.js r186.1 (MIT)</p>"
+  },
+  "hud": {
+   "amp": "Amplitude",
+   "reserve": "Power reserve",
+   "beat": "Frequency (vph)",
+   "rate": "Daily rate",
+   "sPerDay": "s/day"
+  },
+  "explore": {
+   "explode": "Explode",
+   "speed": "Time",
+   "xray": "X-ray",
+   "section": "Section",
+   "loupe": "Loupe",
+   "wind": "Wind",
+   "crown": "Crown",
+   "flip": "Flip",
+   "setTime": "Set the time (slide left / right)",
+   "hint": "Drag to rotate, pinch / scroll to zoom. Tap a part to open its card.",
+   "crownPulled": "Crown pulled: the balance stops and the hands can be set.",
+   "crownPushed": "Crown pushed in: the watch runs again."
+  },
+  "tour": {
+   "start": "Start the tour",
+   "chapters": "Contents",
+   "next": "Next",
+   "finish": "Finish",
+   "finished": "Tour finished — explore freely.",
+   "basicKicker": "Guided tour",
+   "artisanKicker": "Artisan tour"
+  },
+  "glossary": {
+   "title": "Glossary",
+   "kicker": "{n} terms",
+   "search": "Search terms"
+  },
+  "parts": {
+   "all": "All",
+   "title": "Parts encyclopedia",
+   "lead": "This watch is made of {m} parts ({n} kinds). Tap a part in 3D or choose one from the list.",
+   "teeth": "Teeth",
+   "module": "Module",
+   "period": "One turn",
+   "count": "Count",
+   "role": "What it does",
+   "analogy": "Think of it as",
+   "material": "Material",
+   "links": "Connected parts",
+   "back": "Back to list"
+  }
+ },
+ "intro": {
+  "kicker": "Calibre HA-01 · Flying Tourbillon",
+  "sub": "Inside a mechanical watch",
+  "skip": "Tap to skip"
+ },
+ "loop": {
+  "title": "Disassembly & assembly",
+  "choreo": {
+   "layer": "Layers — parts float apart in stack order",
+   "radial": "Bloom — the watch opens like a flower",
+   "spiral": "Spiral — parts unwind along a helix",
+   "meteor": "Meteor — parts stream in with trails of light"
+  },
+  "name": {
+   "layer": "Layers",
+   "radial": "Bloom",
+   "spiral": "Spiral",
+   "meteor": "Meteor"
+  },
+  "lift": "Taking the watch off the stand",
+  "explode": "Explode",
+  "partsCount": "{n} parts",
+  "hold": "A living exploded view",
+  "holdText": "Even apart, the balance and tourbillon keep running.",
+  "step": "STEP {i}/{n}",
+  "done": "Complete",
+  "doneText": "Every part is back in place."
+ },
+ "groups": {
+  "energy": "Energy",
+  "regulating": "Regulating",
+  "display": "Display",
+  "auto": "Self-winding",
+  "keyless": "Keyless works",
+  "frame": "Frame",
+  "jewel": "Jewels",
+  "case": "Case"
+ },
+ "parts": {
+  "mainplate": {
+   "name": "Main plate",
+   "en": "地板",
+   "role": "The largest plate and the foundation of the movement. The holes for jewels, pivots and screws are machined with an accuracy finer than a human hair. Its surface carries perlage — small overlapping circles.",
+   "analogy": "The foundation and floor of a house: every part takes its position from it.",
+   "material": "Brass, rhodium-plated",
+   "asm": "Lay down the main plate — the reference for everything."
+  },
+  "holeJewel": {
+   "name": "Hole jewel",
+   "en": "穴石",
+   "role": "A synthetic ruby with a tiny hole in the middle that carries a pivot. Ruby is extremely hard and can be polished very smooth, so friction and wear are far lower than metal on metal. A small dish on its surface — the [[oilSink|oil sink]] — keeps the lubricant in place.",
+   "analogy": "A slippery \"gem bearing\" for a spinning shaft.",
+   "material": "Synthetic ruby (corundum)",
+   "asm": "Press-fit the jewel bearings."
+  },
+  "capJewel": {
+   "name": "Cap jewel",
+   "en": "受石",
+   "role": "A flat jewel without a hole placed above a hole jewel. It catches the very tip of the pivot and limits how far the arbor can move up and down. Used on the fastest parts: the balance and the escape wheel.",
+   "analogy": "The smooth ceiling that a spinning top touches.",
+   "material": "Synthetic ruby",
+   "asm": "Lay the cap jewels on top."
+  },
+  "palletStone": {
+   "name": "Pallet stone",
+   "en": "アンクルの爪石",
+   "role": "The two long rubies at the ends of the pallet fork — entry and exit. They stop and release the escape-wheel teeth in turn. Because the teeth slide along their faces to push the balance, a hard and smooth ruby is essential.",
+   "analogy": "The tip of a turnstile arm that lets one person through at a time.",
+   "material": "Synthetic ruby",
+   "asm": "Set the pallet stones in the lever."
+  },
+  "impulseJewel": {
+   "name": "Impulse jewel",
+   "en": "振り石",
+   "role": "A slim ruby pin standing on the roller of the balance staff. At every swing it enters the fork of the lever, moving it — and receiving a push back from it.",
+   "analogy": "The handle you hold while someone pushes your swing.",
+   "material": "Synthetic ruby",
+   "asm": "Fit the impulse jewel to the balance."
+  },
+  "chaton": {
+   "name": "Chaton",
+   "en": "シャトン",
+   "role": "A gold ring holding a jewel, fixed to the bridge with tiny screws. Most modern jewels are pressed straight into the bridge, but chatons make jewels easy to replace and look beautiful, so fine watches still use them.",
+   "analogy": "The setting of a gemstone ring.",
+   "material": "Gold-plated brass",
+   "asm": "Screw the jewelled chatons in place."
+  },
+  "screw": {
+   "name": "Screw",
+   "en": "ネジ",
+   "role": "Small screws hold the bridges and parts to the plate. Most screws in this watch are [[bluing|heat-blued]] at about 290 °C. Their heads are rounded and polished — care that is easy to miss.",
+   "analogy": "Tiny fasteners that tie the parts together.",
+   "material": "Hardened steel, heat-blued",
+   "asm": "Turn in the screws."
+  },
+  "tbBar": {
+   "name": "Tourbillon lower bar",
+   "en": "トゥールビヨン下受け",
+   "role": "A bridge spanning the large opening in the plate; it supports the tourbillon cage from below. Because this is a [[flyingTourbillon|flying tourbillon]] with no upper bridge, this bar alone carries the cage. A jewel sits in its centre and the stationary seconds wheel is fixed on top.",
+   "analogy": "The single post that holds a trapeze from one side.",
+   "material": "Brass, rhodium-plated",
+   "asm": "Fix the tourbillon bar to the plate."
+  },
+  "fixedWheel": {
+   "name": "Fixed seconds wheel",
+   "en": "固定車（秒の車）",
+   "role": "A wheel under the cage that never turns. The escape pinion, carried by the cage, rolls around it — and that is exactly what makes the whole cage turn once a minute. A wheel standing still creates the motion: the trick of every tourbillon.",
+   "analogy": "The fixed hub that a carousel turns around.",
+   "material": "Steel",
+   "asm": "Seat the fixed wheel on the bar."
+  },
+  "stem": {
+   "name": "Winding stem",
+   "en": "巻真",
+   "role": "The slender shaft that links the crown to the mechanism inside. Pushed in, it winds; pulled out, it sets the hands.",
+   "analogy": "A messenger rod that carries the crown's turn inside.",
+   "material": "Steel",
+   "asm": "Insert the winding stem."
+  },
+  "windingPinion": {
+   "name": "Winding pinion",
+   "en": "きち車",
+   "role": "A wheel on the stem that turns with the crown and drives the crown wheel. Its side teeth turn a sideways rotation into the rotation of a flat wheel.",
+   "analogy": "A corner where rotation changes direction.",
+   "material": "Steel",
+   "asm": "Slide the winding pinion onto the stem."
+  },
+  "slidingPinion": {
+   "name": "Sliding pinion",
+   "en": "つづみ車",
+   "role": "A pinion that slides along the stem. With the crown pushed in it engages the winding pinion; with the crown pulled it moves over to the setting wheels.",
+   "analogy": "A railway switch that chooses the route.",
+   "material": "Steel",
+   "asm": "Slide the sliding pinion onto the stem."
+  },
+  "settingLever": {
+   "name": "Setting lever",
+   "en": "おしどり",
+   "role": "A spring lever that senses whether the crown is pulled. It sits in a groove of the stem and pivots when the stem is drawn out, moving the yoke.",
+   "analogy": "The lever of a selector switch.",
+   "material": "Steel",
+   "asm": "Place the setting lever on the dial side."
+  },
+  "yoke": {
+   "name": "Yoke",
+   "en": "かんぬき",
+   "role": "Moved by the setting lever, the yoke pushes the sliding pinion back and forth. Together they switch reliably between winding and setting.",
+   "analogy": "The arm that actually throws the railway switch.",
+   "material": "Steel",
+   "asm": "Fit the yoke and engage it with the setting lever."
+  },
+  "barrel": {
+   "name": "Barrel",
+   "en": "香箱",
+   "role": "A drum with a lid that holds the [[mainspring|mainspring]]. The teeth around it turn under the force of the unwinding spring and drive the centre pinion. This watch stores about 72 hours of energy.",
+   "analogy": "The watch's battery: it releases its stored energy little by little.",
+   "material": "Brass, gold-plated",
+   "asm": "Place the barrel drum."
+  },
+  "mainspring": {
+   "name": "Mainspring",
+   "en": "ぜんまい",
+   "role": "A long, thin metal strip coiled inside the barrel. Winding wraps it tightly around the arbor; its urge to unwind is the energy that drives the watch. Modern mainsprings use special alloys that resist fatigue and corrosion.",
+   "analogy": "A twisted rubber band that stores energy.",
+   "material": "Special alloy (Co–Ni based)",
+   "asm": "Coil the mainspring into the barrel."
+  },
+  "barrelCover": {
+   "name": "Barrel cover",
+   "en": "香箱ふた",
+   "role": "The lid that closes the barrel and keeps the spring inside, with a hole for the arbor.",
+   "analogy": "The lid of a lunch box.",
+   "material": "Brass, gold-plated",
+   "asm": "Snap the cover onto the barrel."
+  },
+  "barrelArbor": {
+   "name": "Barrel arbor",
+   "en": "香箱真",
+   "role": "The axle through the centre of the barrel; the inner end of the mainspring hooks onto it. The ratchet wheel sits on its square, so winding turns the arbor and tightens the spring from the inside.",
+   "analogy": "The core of a spool that winds up the thread.",
+   "material": "Steel",
+   "asm": "Insert the barrel arbor."
+  },
+  "centerWheel": {
+   "name": "Centre wheel",
+   "en": "二番車",
+   "role": "The first wheel driven by the barrel; it turns exactly once an hour. Its arbor passes through to the dial side, where the cannon pinion carries the minute hand.",
+   "analogy": "The first runner of a relay.",
+   "material": "Brass, gold-plated",
+   "asm": "Stand the centre wheel in the plate."
+  },
+  "thirdWheel": {
+   "name": "Third wheel",
+   "en": "三番車",
+   "role": "Links the centre wheel to the tourbillon cage (which plays the part of the fourth wheel). Combining a pinion and a large wheel, each stage makes the rotation faster.",
+   "analogy": "The second runner of the relay.",
+   "material": "Brass, gold-plated",
+   "asm": "Stand the third wheel."
+  },
+  "tourbillon": {
+   "name": "Tourbillon cage",
+   "en": "トゥールビヨン（籠）",
+   "role": "A cage carrying the whole escapement and balance, turning once a minute. When a watch stands upright, gravity affects the balance differently in each orientation; by turning continuously the cage averages these errors out. The pointer on the cage shows the seconds.",
+   "analogy": "A tiny Ferris wheel that keeps turning while it works.",
+   "material": "Titanium, steel (mirror polished)",
+   "asm": "Seat the assembled cage."
+  },
+  "cagePinion": {
+   "name": "Cage pinion",
+   "en": "籠のカナ",
+   "role": "A small pinion at the bottom of the cage arbor, driven by the third wheel. As it turns, the entire cage turns.",
+   "analogy": "The drive gear of a Ferris wheel.",
+   "material": "Steel",
+   "asm": "Fit the cage pinion."
+  },
+  "cageFrame": {
+   "name": "Cage frame",
+   "en": "籠の枠",
+   "role": "The upper and lower frames of the cage, joined by three pillars. They hold the jewels for the escape wheel, lever and balance. Titanium and steel keep them light and strong; they are polished like mirrors.",
+   "analogy": "The frame of a gondola.",
+   "material": "Titanium, steel",
+   "asm": "Assemble the cage frames."
+  },
+  "escapeWheel": {
+   "name": "Escape wheel",
+   "en": "ガンギ車",
+   "role": "A wheel with 20 club-shaped teeth. Held back tooth by tooth by the lever, it may only advance in tiny steps. Inside the cage it turns once every five seconds.",
+   "analogy": "Each tooth is a passenger passing a ticket gate.",
+   "material": "Steel",
+   "asm": "Place the escape wheel in the cage."
+  },
+  "pallet": {
+   "name": "Pallet fork (lever)",
+   "en": "アンクル",
+   "role": "A T-shaped lever between the escape wheel and the balance that locks and releases again and again. Its two pallet stones stop the escape wheel alternately; its fork receives the impulse jewel and passes energy to the balance. This \"Swiss lever\" layout is the most widely used escapement today.",
+   "analogy": "A gatekeeper letting one through at a time.",
+   "material": "Steel with ruby pallets",
+   "asm": "Fit the pallet fork."
+  },
+  "balance": {
+   "name": "Balance wheel",
+   "en": "テンプ",
+   "role": "The ring that swings back and forth like a pendulum. Here it makes four full swings per second ([[vph|28,800 vibrations per hour]]). Weights on the rim fine-tune its poise and inertia. Precision depends on how steadily the balance keeps its rhythm.",
+   "analogy": "The heart of the watch.",
+   "material": "Gold-plated alloy",
+   "asm": "Fit the balance."
+  },
+  "hairspring": {
+   "name": "Hairspring",
+   "en": "ヒゲゼンマイ",
+   "role": "A spiral spring as fine as a hair, attached to the balance. As the balance turns, the spring winds and unwinds and its restoring force swings the balance back. Its outer end is lifted and curved inward — an [[overcoil|overcoil]] — so the spring breathes around its centre.",
+   "analogy": "The pull that brings a swing back.",
+   "material": "Special alloy (insensitive to temperature)",
+   "asm": "Fit the hairspring."
+  },
+  "cagePointer": {
+   "name": "Cage seconds pointer",
+   "en": "秒針（籠の指針）",
+   "role": "A small blued pointer on top of the cage. As the cage turns once a minute, it shows the seconds directly.",
+   "analogy": "A flag on a Ferris wheel that tells the time.",
+   "material": "Heat-blued steel",
+   "asm": "Fit the seconds pointer to the cage."
+  },
+  "trainBridge": {
+   "name": "Train bridge",
+   "en": "輪列受け",
+   "role": "The plate that holds the upper pivots of the centre wheel, third wheel and cage pinion. Its surface carries [[cotes|Côtes de Genève]] stripes; its edges are [[anglage|bevelled and polished]].",
+   "analogy": "The roof over the wheels.",
+   "material": "Brass, rhodium-plated",
+   "asm": "Lower the train bridge into place."
+  },
+  "barrelBridge": {
+   "name": "Barrel bridge",
+   "en": "香箱受け",
+   "role": "Holds the barrel and the crown wheel from above. It carries large forces, so its shape is sturdy. The ratchet and crown wheels sit on top of it.",
+   "analogy": "The lid of the battery box.",
+   "material": "Brass, rhodium-plated",
+   "asm": "Lower the barrel bridge into place."
+  },
+  "ratchet": {
+   "name": "Ratchet wheel",
+   "en": "角穴車",
+   "role": "Fixed on the square of the barrel arbor, it tightens the mainspring when wound. The click stops it from turning back, so the stored energy cannot escape. Its surface has a radiating \"sunburst\" finish.",
+   "analogy": "A one-way ratchet.",
+   "material": "Steel, polished",
+   "asm": "Place the ratchet wheel and screw it down."
+  },
+  "crownWheel": {
+   "name": "Crown wheel",
+   "en": "丸穴車",
+   "role": "Receives the rotation from the winding pinion and passes it to the ratchet wheel — the path of hand-winding.",
+   "analogy": "The relay between crown and ratchet.",
+   "material": "Steel, polished",
+   "asm": "Place the crown wheel and screw it down."
+  },
+  "click": {
+   "name": "Click",
+   "en": "コハゼ",
+   "role": "A small pawl that engages the ratchet teeth to prevent reverse rotation. Each time a tooth passes during winding it makes the familiar \"click\".",
+   "analogy": "The lock of an umbrella: it only lets one way through.",
+   "material": "Steel",
+   "asm": "Fit the click."
+  },
+  "clickSpring": {
+   "name": "Click spring",
+   "en": "コハゼばね",
+   "role": "A fine spring that keeps the click pressed against the ratchet.",
+   "analogy": "A finger pushing the click's back.",
+   "material": "Steel",
+   "asm": "Hook the click spring."
+  },
+  "reverser": {
+   "name": "Reversing wheel",
+   "en": "切替車",
+   "role": "Lets the rotor wind in the same direction whichever way it turns: it converts back-and-forth motion into one-way winding.",
+   "analogy": "Like bicycle pedals that always drive you forward.",
+   "material": "Brass, gold-plated",
+   "asm": "Stand the reversing wheels."
+  },
+  "rotor": {
+   "name": "Rotor",
+   "en": "ローター",
+   "role": "A semicircular weight that turns freely with the movement of your wrist. Gravity pulls it down, so it swings, and its rotation winds the mainspring automatically. Its centre runs on a ball bearing.",
+   "analogy": "A pendulum generator that turns motion into energy.",
+   "material": "Brass, rhodium-plated",
+   "asm": "Place the rotor and fix its central screw."
+  },
+  "rotorWeight": {
+   "name": "Rotor weight",
+   "en": "ローターのおもり",
+   "role": "The heavy golden segment on the rim of the rotor. The more weight at the edge, the more easily the rotor turns. The brand name is engraved on it.",
+   "analogy": "The head of a hammer — weight where it counts.",
+   "material": "Heavy-metal alloy, gold finish",
+   "asm": "Attach the weight."
+  },
+  "cannon": {
+   "name": "Cannon pinion",
+   "en": "筒カナ",
+   "role": "A tubular pinion pressed onto the centre-wheel arbor; it carries the minute hand. Its friction fit lets it slip only when you set the hands.",
+   "analogy": "The seat of the minute hand.",
+   "material": "Steel",
+   "asm": "Press the cannon pinion onto the arbor."
+  },
+  "minuteWheel": {
+   "name": "Minute wheel",
+   "en": "日の裏車",
+   "role": "Driven by the cannon pinion, it drives the hour wheel through its own pinion — the first step of the 12:1 reduction.",
+   "analogy": "First stage of the gearbox from minutes to hours.",
+   "material": "Brass, gold-plated",
+   "asm": "Place the minute wheel."
+  },
+  "hourWheel": {
+   "name": "Hour wheel",
+   "en": "筒車",
+   "role": "A tubular wheel that turns once in twelve hours and carries the hour hand.",
+   "analogy": "The seat of the hour hand.",
+   "material": "Brass, gold-plated",
+   "asm": "Fit the hour wheel."
+  },
+  "dateDriver": {
+   "name": "Date driving wheel",
+   "en": "日送り車",
+   "role": "Turns once a day and, around midnight, its finger advances the date ring by one day.",
+   "analogy": "The finger that turns a tear-off calendar.",
+   "material": "Brass, gold-plated",
+   "asm": "Place the date driving wheel."
+  },
+  "dateRing": {
+   "name": "Date ring",
+   "en": "日車",
+   "role": "A ring printed with 1 to 31; today's date appears in the window at 3 o'clock. The driving wheel advances its 31 inner teeth one by one.",
+   "analogy": "The tear-off calendar itself.",
+   "material": "Brass (printed)",
+   "asm": "Lay the date ring."
+  },
+  "dial": {
+   "name": "Dial",
+   "en": "文字盤",
+   "role": "The face you read. Its centre carries a wave guilloché, the power-reserve sub-dial a concentric pattern, and a window at 6 o'clock reveals the tourbillon. The hour markers are applied, polished metal.",
+   "analogy": "The watch's face.",
+   "material": "Brass, guilloché, printed",
+   "asm": "Place the dial."
+  },
+  "hourHand": {
+   "name": "Hour hand",
+   "en": "時針",
+   "role": "The short hand, one turn in 12 hours. Its leaf shape is skeletonised and filled with luminous material for reading in the dark.",
+   "analogy": "A slow finger showing the long flow of time.",
+   "material": "Steel (mirror polished), lume",
+   "asm": "Press on the hour hand."
+  },
+  "minuteHand": {
+   "name": "Minute hand",
+   "en": "分針",
+   "role": "The long hand, one turn per hour. It reaches the minute track for precise reading.",
+   "analogy": "A long finger for reading time in detail.",
+   "material": "Steel (mirror polished), lume",
+   "asm": "Press on the minute hand."
+  },
+  "prHand": {
+   "name": "Power reserve hand",
+   "en": "パワーリザーブ針",
+   "role": "A blued hand showing how much energy is left in the mainspring — 0 to 72 hours here.",
+   "analogy": "A fuel gauge needle.",
+   "material": "Heat-blued steel",
+   "asm": "Fit the power-reserve hand."
+  },
+  "caseMiddle": {
+   "name": "Case middle",
+   "en": "ケース（胴）",
+   "role": "The body that houses the movement. Its flanks are brushed, its edges polished. The lugs that hold the strap grow from it.",
+   "analogy": "The walls of the watch's house.",
+   "material": "Stainless steel (gold available)",
+   "asm": "Case the movement."
+  },
+  "gasket": {
+   "name": "Gasket",
+   "en": "パッキン",
+   "role": "Rubber rings that seal the crystal and case back against water and dust.",
+   "analogy": "Like the rubber seal of a fridge door.",
+   "material": "Synthetic rubber",
+   "asm": "Fit the gaskets."
+  },
+  "bezel": {
+   "name": "Bezel",
+   "en": "ベゼル",
+   "role": "The ring around the crystal, mirror-polished to catch the light.",
+   "analogy": "The frame around a painting.",
+   "material": "Stainless steel (polished)",
+   "asm": "Fit the bezel."
+  },
+  "crystal": {
+   "name": "Sapphire crystal",
+   "en": "サファイアガラス",
+   "role": "The transparent windows on the front and back. Made of [[corundum|corundum]] — the same crystal as ruby — it is extremely scratch resistant. An [[arCoating|anti-reflective coating]] reduces glare and gives a faint blue tint.",
+   "analogy": "The watch's window.",
+   "material": "Synthetic sapphire",
+   "asm": "Fit the sapphire crystals."
+  },
+  "caseback": {
+   "name": "Case back",
+   "en": "裏蓋",
+   "role": "The cover at the back; a sapphire window shows the movement. Six screws hold it, and engravings circle it.",
+   "analogy": "A back door you can see through.",
+   "material": "Stainless steel",
+   "asm": "Screw down the case back."
+  },
+  "crown": {
+   "name": "Crown",
+   "en": "リューズ",
+   "role": "The knob outside the case. Turn it to wind the mainspring, pull it to set the hands. While pulled, the balance stops so you can set the time to the second ([[hacking|hacking]]).",
+   "analogy": "The control handle of the watch.",
+   "material": "Stainless steel",
+   "asm": "Attach the crown to the stem."
+  }
+ },
+ "tour": {
+  "basic": {
+   "title": "Guided tour: From mainspring to hands",
+   "intro": "A mechanical watch needs no battery. It stores energy in a mainspring and spends it slowly and precisely through wheels and a tiny \"gatekeeper\". In nine chapters we follow that energy step by step. The glowing particles show where the energy flows.",
+   "scenes": [
+    {
+     "kicker": "Chapter 1 · Winding",
+     "title": "From the crown to the mainspring",
+     "body": "The energy that drives a watch begins with turning the crown. The rotation travels inside through the [[keyless|winding stem]] and passes from winding pinion → crown wheel → ratchet wheel.\n\nThe ratchet wheel sits on the barrel arbor; turning it coils the mainspring tightly from the inside.\n\nWe are winding slowly now. The little pawl on the ratchet teeth is the click. While winding it hops over each tooth with a \"click\"; when you let go, it stops the wheel from turning back, so the stored energy cannot escape. Watch the [[powerReserve|power reserve]] rise below."
+    },
+    {
+     "kicker": "Chapter 2 · Storing",
+     "title": "The barrel and the mainspring",
+     "body": "The barrel is a drum that holds the mainspring. With its lid off you can see the long metal strip coiled inside.\n\nWinding wraps the spring tightly around the arbor. As it tries to unwind, the barrel drum turns slowly and its teeth drive the whole watch. Fully wound, this watch runs for about 72 hours — three days.\n\nThe spring's force changes slightly from fully wound to nearly empty. Keeping the balance's swing time unchanged in spite of this is called [[isochronism|isochronism]], and it matters a great deal for accuracy."
+    },
+    {
+     "kicker": "Chapter 3 · Transmitting",
+     "title": "The gear train — a relay of rotation",
+     "body": "The barrel's energy is carried by a row of wheels called the [[gearTrain|gear train]]. Each time a large wheel turns a small [[pinion|pinion]], the rotation becomes faster.\n\nThe barrel turns about once every 6 hours, the centre wheel exactly once an hour, the third wheel once every 7½ minutes and the tourbillon cage once a minute. The table below shows the real periods calculated from the teeth (this scene runs 30× faster).\n\nThe teeth decide the time. 80 teeth on the centre wheel against a 10-leaf pinion give 8×; 75 teeth against the 10-leaf cage pinion give 7.5×; together 60×. That is how \"once an hour\" becomes \"once a minute\"."
+    },
+    {
+     "kicker": "Chapter 4 · Counting",
+     "title": "The escapement — a gatekeeper",
+     "body": "If the wheels could spin freely, the mainspring would empty in seconds. Something must cut the rotation into single steps: the [[escapement|escapement]], made of the escape wheel and the pallet fork.\n\nTime is slowed 20× here. A tooth is held by a pallet stone ([[lock|lock]]) → the balance arrives and moves the lever, releasing the tooth (unlock) → the tooth slides along the slanted face of the stone and pushes the balance ([[impulse|impulse]]) → the tooth leaves and is caught by the other stone ([[drop|drop]]). Follow the four phases in the panel below.\n\nThis happens eight times a second (8 [[beat|beats]]). The \"tick, tick\" you hear is the sound of those stops."
+    },
+    {
+     "kicker": "Chapter 5 · Regulating",
+     "title": "Balance and hairspring — the heart",
+     "body": "The escapement is told when to let a tooth pass by the [[balance|balance]]. It is a weighted ring, and the fine [[hairspring|hairspring]] at its centre always tries to bring it back. So the balance swings left and right at a steady rhythm.\n\nThis balance makes four full swings per second (4 Hz). Each half swing counts as one vibration, so it makes 28,800 per hour. The size of the swing is the [[amplitude|amplitude]] — about 290° when the spring is well wound.\n\nThink of a playground swing: whether it swings high or low, one round trip takes almost the same time. That property is what turns the balance into a reliable ruler of time."
+    },
+    {
+     "kicker": "Chapter 6 · Supporting",
+     "title": "Rubies — not decoration",
+     "body": "\"Jewels\" on a watch means the synthetic rubies used as bearings. This watch has {n} of them — everything glowing now is ruby.\n\nThere are three reasons for ruby. Hardness: at 9 on the [[mohs|Mohs scale]] it is harder than almost anything but diamond, so steel pivots do not wear it down. Smoothness: it can be polished like a mirror, keeping friction low and the amplitude high. Oil retention: a small dish on its surface — the [[oilSink|oil sink]] — holds the oil in place by surface tension.\n\nThere are several kinds: hole jewels for the pivots, cap jewels for the pivot tips, pallet stones on the lever and the impulse jewel on the balance. Watch rubies are not mined gems but [[corundum|corundum]] crystals grown in a flame — chemically the same as natural ruby (more in the \"Jewel Maker\" artisan tour)."
+    },
+    {
+     "kicker": "Chapter 7 · Displaying",
+     "title": "The motion works — from minutes to hours",
+     "body": "Under the dial, a set of wheels makes the minute hand turn 12 times faster than the hour hand: the [[motionWorks|motion works]]. The [[cannonPinion|cannon pinion]] on the centre-wheel arbor carries the minute hand; the minute wheel reduces the speed by 12; the hour wheel carries the hour hand.\n\nTime is running fast now (30 minutes per second). While the minute hand makes a full turn, the hour hand moves one twelfth.\n\nThe hour wheel also turns the date driving wheel, which advances the date ring (1–31) by one day around midnight. The date window is at 3 o'clock."
+    },
+    {
+     "kicker": "Chapter 8 · The rotating cage",
+     "title": "Tourbillon — facing gravity",
+     "body": "When a watch stands upright, the tiniest imbalance in the balance makes gravity speed it up or slow it down. This error changes with the orientation of the watch — [[positionalError|positional error]].\n\nA [[tourbillon|tourbillon]] puts the whole escapement and balance into a cage that turns once a minute. As the cage keeps turning, the imbalance points in every direction in turn and the errors average out. Under the cage is a fixed wheel; the escape pinion rolls around it and that makes the cage turn.\n\nThis is a [[flyingTourbillon|flying tourbillon]] with no upper bridge, so the whole cage is visible from the dial. Its pointer shows the seconds. We are tilting the watch slowly — the cage keeps turning."
+    },
+    {
+     "kicker": "Chapter 9 · Self-winding",
+     "title": "The rotor — winding with your wrist",
+     "body": "The semicircular weight on the back is the [[rotor|rotor]]. It turns freely around its centre, and when the watch tilts, gravity pulls it round. We are rocking the watch as if on a moving wrist.\n\nThe rotor drives the ratchet wheel through the [[reverser|reversing wheels]] and winds the mainspring. Thanks to the reversers, winding goes the same way whether the rotor turns left or right.\n\nBelow you can see the power reserve rising just from the rocking. Worn every day, a self-winding watch keeps running without touching the crown. That completes the journey from mainspring to hands."
+    }
+   ]
+  }
+ },
+ "artisan": {
+  "title": "Artisan tours",
+  "intro": "A watch passes through the hands of many specialists. Follow each artisan to discover the ideas and skills that usually stay hidden.",
+  "jewel": {
+   "title": "Jewel Maker",
+   "en": "宝石職人",
+   "blurb": "Growing synthetic ruby, slicing, drilling and polishing it into bearings.",
+   "intro": "Watch jewels start as synthetic ruby grown in a flame. We follow them from the crystal to the moment they are pressed into the plate with micron accuracy.",
+   "scenes": [
+    {
+     "kicker": "1 · Where the jewels are",
+     "title": "Gems inside the watch",
+     "body": "The {n} jewels of this watch are glowing. The faster a part moves, the more likely its bearings are jewels — the balance and escape wheel above all.\n\nFor a jewel maker what matters is where a jewel works and what shape it has: hole jewels, cap jewels, pallet stones and impulse jewels need completely different forms and tolerances. Let us see how they are made."
+    },
+    {
+     "kicker": "2 · Growing the crystal",
+     "title": "Ruby born in a flame",
+     "body": "Watch rubies are made by the [[verneuil|Verneuil (flame-fusion) process]]. Fine alumina (aluminium oxide) powder mixed with a little chromium — the source of the red — is dropped slowly through an oxygen–hydrogen flame of about 2,050 °C.\n\nThe molten powder settles on a pedestal and solidifies, slowly rotating, until it has grown into a pear-shaped crystal called a boule. It is [[corundum|corundum]], the same as natural ruby, but with far fewer flaws and impurities — the great advantage of synthetic ruby.\n\nStress builds up as it cools, so the boule is split lengthwise to release it before machining."
+    },
+    {
+     "kicker": "3 · Slicing and drilling",
+     "title": "Wafers and holes",
+     "body": "The boule is cut with diamond-coated blades into rods and then into thin wafers. Ruby is too hard for ordinary blades — it has to be ground away with diamond.\n\nThen a hole is made in the centre: 0.07 to 0.2 mm across, sometimes as fine as a hair (about 0.08 mm). Once this took hours of work with fine wire and diamond powder; today holes are opened by laser and then polished with a fine wire.\n\nFinally the outside is turned to a perfect circle and the surfaces polished to a mirror."
+    },
+    {
+     "kicker": "4 · Shapes",
+     "title": "Different shapes, different jobs",
+     "body": "The cut-away models show how the jewel types differ.\n\nA flat jewel has a straight hole, fine for slow wheels. An olive jewel has a domed surface and a rounded hole, so the pivot touches less and does not catch when slightly tilted — ideal for fast parts like the balance.\n\nCap jewels have no hole and support the pivot tip. Pallet stones are set at a carefully adjusted angle, because the angle of their sliding face decides how well energy is passed on. The impulse jewel is a small pin, sometimes with a D-shaped section."
+    },
+    {
+     "kicker": "5 · Holding the oil",
+     "title": "Oil sinks and surface tension",
+     "body": "Only a drop of oil the size of a pin tip goes between jewel and pivot. If it spread out, the pivot itself would soon run dry.\n\nSo the jewel has a dish called an [[oilSink|oil sink]]. Surface tension keeps the oil as a round droplet between the dish and the pivot. Where a cap jewel sits on a hole jewel, the oil is held in the narrow gap between the two stones.\n\nOne reason ruby is chosen is that its surface neither repels nor spreads the oil too much."
+    },
+    {
+     "kicker": "6 · Pressing in",
+     "title": "A micron-accurate fit",
+     "body": "A finished jewel is pressed into a hole in the plate or bridge — a [[interference|press fit]]. The hole is made a little smaller than the jewel, by about 0.005–0.01 mm, so the metal stretches slightly and grips the stone firmly.\n\nThe depth matters too. It sets the [[endshake|endshake]] of the arbor, so the jeweller adjusts the height with a special tool to the micron.\n\nThe golden rings on the back of this watch are [[chaton|chatons]]: the traditional way of setting a jewel in a ring held by screws. It is more work, but beautiful, and makes replacing a jewel easy."
+    },
+    {
+     "kicker": "7 · Protecting from shocks",
+     "title": "Shock protection",
+     "body": "The pivots of the balance staff are very thin (about 0.1 mm) and can break if the watch is dropped. So the balance jewels sit in a spring-loaded [[shockProtection|shock-protection]] setting.\n\nUnder a hard knock the jewels move slightly, letting the thicker part of the staff take the load. When the shock passes, the spring returns the jewels to their place.\n\nHard yet brittle stones, protected by the softness of a spring: the jewel maker's work is to let them serve inside the watch for a lifetime."
+    }
+   ]
+  },
+  "finisher": {
+   "title": "Finisher",
+   "en": "仕上げ職人",
+   "blurb": "Bevels, stripes, perlage, blued screws — beauty even where no one looks.",
+   "intro": "In fine watchmaking, parts must not only work — they must be beautifully finished. Here is hand decoration calculated down to the way it catches the light.",
+   "scenes": [
+    {
+     "kicker": "1 · Bevelling",
+     "title": "Anglage — edges of light",
+     "body": "Look at the edges of the bridges: as the light moves, thin lines flash like mirrors. This is [[anglage|anglage]]. The edges are filed to a narrow 45° bevel and the bevel is polished to a mirror.\n\nBevelling removes burrs and the lines of light trace each part's outline. Outward corners can be filed fairly easily, but inward corners cannot be reached by a machine and are finished by hand with files and wooden sticks. The more inward corners, the more effort a finish has taken."
+    },
+    {
+     "kicker": "2 · Stripes",
+     "title": "Côtes de Genève",
+     "body": "The parallel wave stripes on the bridges are [[cotes|Côtes de Genève]]. A rotating cylindrical lap of wood or rubber charged with abrasive is pressed onto the surface and moved step by step.\n\nEach stripe draws a gentle arc — the trace of the rotating lap. The bridges are finished together so the stripes continue across them without a break.\n\nIt is decoration, but it is also said to trap tiny dust particles in the grooves, away from the moving parts."
+    },
+    {
+     "kicker": "3 · Circles",
+     "title": "Perlage",
+     "body": "The scale-like pattern of small overlapping circles on the main plate is [[perlage|perlage]]. A rotating peg charged with abrasive is pressed on, circle after circle.\n\nEach new circle overlaps the previous one. The more even the size and spacing, the more beautiful the pattern.\n\nEven the parts of the plate hidden under the dial receive this finish."
+    },
+    {
+     "kicker": "4 · Heat bluing",
+     "title": "The colours of a blued screw",
+     "body": "Blue screws are not painted. A polished steel screw is heated on a brass tray; a thin oxide film grows on its surface and its thickness changes the colour.\n\nAs the temperature rises, the colour goes from silver → straw → brown → purple → blue. The right blue appears at about 290 °C, and the screw must be taken off the heat at that very moment — a little later and it turns pale blue.\n\nThe oxide also protects against rust. An old watchmaker's technique still in use today."
+    },
+    {
+     "kicker": "5 · Black polish",
+     "title": "Black polishing",
+     "body": "Compare the two blocks: satin on the left, [[blackPolish|black polish]] on the right — a flat surface polished into a flawless mirror.\n\nIt is so flat that from most angles it reflects nothing bright and looks black; only when it mirrors a light source does it suddenly flash white.\n\nIt is polished for hours on a tin plate with diamond paste. The slightest distortion or scratch ruins it, which makes it one of the hardest finishes. In this watch it is used on the upper frame of the cage."
+    },
+    {
+     "kicker": "6 · Hidden places",
+     "title": "Finishing under the dial",
+     "body": "With the dial and hands removed, the dial side of the plate appears — usually never seen. The setting lever, the yoke and the parts that switch between winding and setting are laid out here.\n\nFine watches still apply perlage and bevel the edges even here. Finishing places the owner will never see is a matter of pride and a sign of care for quality."
+    }
+   ]
+  },
+  "regulator": {
+   "title": "Regulator",
+   "en": "調速職人",
+   "blurb": "Hairsprings, amplitude and positions — chasing a few seconds a day.",
+   "intro": "Accuracy comes down to tiny adjustments of the balance and hairspring. Step into the world of the regulator, who chases errors of a few seconds a day.",
+   "scenes": [
+    {
+     "kicker": "1 · Balance and spring",
+     "title": "Making a ruler of time",
+     "body": "Balance and hairspring together form one oscillator. The inertia of the balance and the stiffness of the spring set the time of one swing.\n\nThe target here is 4 Hz. But a hairspring is thinner than a hair: change its length by 0.1 mm and the watch may drift by tens of seconds a day. The regulator pairs each balance with a matching spring and pins it at exactly the right length."
+    },
+    {
+     "kicker": "2 · Overcoil",
+     "title": "The raised terminal curve",
+     "body": "From the side you can see the outermost turn of the hairspring lifted and bent inward. This is the [[overcoil|overcoil]].\n\nA flat spring shifts its centre as it breathes and pushes the balance staff sideways. Bringing the outer end inward along a special curve lets the spring breathe evenly around its centre. Its period then changes less with amplitude ([[isochronism|isochronism]]) and accuracy improves.\n\nThe curve is formed little by little with special tweezers."
+    },
+    {
+     "kicker": "3 · Amplitude",
+     "title": "Less energy, smaller swing",
+     "body": "We have let the mainspring run down. See how the balance [[amplitude|amplitude]] has dropped? As the energy weakens, the balance swings less and less.\n\nIdeally the period would not change with amplitude, but in reality it does a little. The regulator adjusts so that rate changes as little as possible. Hold the \"wind\" button and watch the amplitude recover."
+    },
+    {
+     "kicker": "4 · Positions",
+     "title": "Measuring in six positions",
+     "body": "Watches are tested in six orientations: dial up and dial down (flat), and crown up, down, left and right (vertical). The difference between them is [[positionalError|positional error]].\n\nIn vertical positions any tiny imbalance in the balance makes gravity cause an error. The values in the chart are illustrative. Because this tourbillon turns once a minute, the four vertical positions average out towards the blue line."
+    },
+    {
+     "kicker": "5 · Rate adjustment",
+     "title": "Setting the daily rate",
+     "body": "Finally the [[rate|rate]] — how many seconds a day the watch gains or loses. Move the slider to see the daily error when the frequency changes very slightly.\n\nA change of just 0.01 % is about 9 seconds a day. The regulator listens with a [[timegrapher|timegrapher]] and alters the balance weights or the active length of the spring until the rate falls within the target. The symmetry of the beat is adjusted here too."
+    }
+   ]
+  },
+  "wheel": {
+   "title": "Wheel Cutter",
+   "en": "歯車職人",
+   "blurb": "Cycloidal teeth, cutting and pivot burnishing — passing on motion beautifully.",
+   "intro": "Watch wheels follow slightly different rules from the gears in cars and machines. See how they pass on a tiny force while losing as little as possible.",
+   "scenes": [
+    {
+     "kicker": "1 · The train",
+     "title": "A relay of energy",
+     "body": "From the barrel to the cage pinion, a large wheel turning a small pinion is repeated three times. Each stage turns faster and carries less force.\n\nOnly a tiny fraction of the mainspring's force reaches the balance, so the wheel cutter fights every bit of friction and catching as the teeth mesh. The particles show the energy passing from wheel to wheel."
+    },
+    {
+     "kicker": "2 · Tooth form",
+     "title": "Cycloidal and involute",
+     "body": "Look at the magnified teeth. Watch wheels use a [[cycloid|cycloidal-type]] form with rounded, ogival tips. Machines and cars mostly use the [[involute|involute]] form (switch to see it as blue dots).\n\nInvolute teeth tolerate small errors in centre distance and carry large loads. But when a large wheel drives a small pinion, as in a watch, the cycloidal form slides less as the teeth come into contact and runs smoothly even with very few leaves.\n\nWith pinions of only 6 to 12 leaves, that property is essential."
+    },
+    {
+     "kicker": "3 · Cutting",
+     "title": "One tooth at a time",
+     "body": "A wheel is cut from a brass blank, one tooth space at a time. A fly cutter shaped like the tooth gap cuts one space; then the dividing plate turns the blank by exactly one tooth for the next cut.\n\nForty teeth, forty cuts. Any error in dividing makes the spacing uneven and the rotation irregular. Today automatic machines do it, but deburring and bevelling are still sometimes done by hand."
+    },
+    {
+     "kicker": "4 · Pivots",
+     "title": "Burnishing the pivots",
+     "body": "The slim ends of an arbor are its pivots. They turn inside jewels, so the smoother they are, the less friction.\n\nThe craftsman spins the pivot in a jacot tool and presses a hard steel burnisher against it, smoothing the surface to a mirror. Because the metal is compacted rather than cut, the surface also becomes harder and wears less."
+    },
+    {
+     "kicker": "5 · Crossings",
+     "title": "The spokes of a wheel",
+     "body": "Notice how much of each wheel has been cut away, leaving slender arms. This makes the wheels lighter and lowers their inertia.\n\nThe escapement stops and restarts the train eight times a second. Heavy wheels would need extra energy every time. Light wheels start quickly with little force and stop at once. The curved arms balance strength, lightness and beauty."
+    }
+   ]
+  },
+  "assembler": {
+   "title": "Assembler",
+   "en": "組立職人",
+   "blurb": "Order of assembly, oiling, endshake, poising — bringing it to life.",
+   "intro": "Assemble dozens of parts in the right order, place the right oil in the right places, and the watch comes to life. Follow the assembler at work.",
+   "scenes": [
+    {
+     "kicker": "1 · Order",
+     "title": "There is a reason for the order",
+     "body": "The movement comes apart and assembles again. Assembly starts with the main plate, then the barrel, gear train, tourbillon, bridges and winding parts.\n\nThe order matters. The train bridge, for example, can only go on once every wheel is standing in place: with tweezers the assembler guides each pivot into its jewel, pressing the bridge down gently."
+    },
+    {
+     "kicker": "2 · Oiling",
+     "title": "Oil types and places",
+     "body": "Different places need oils with different properties. The glowing points are oiling points (colours show the oil type).\n\nFast, lightly loaded pivots like the balance and escape wheel get a thin oil; heavily loaded barrel and winding wheels get thicker oil or grease; the pallet stones get a special oil in tiny amounts.\n\nThe key is not to over-oil. Too much spreads and runs away, leaving the vital spot dry. The assembler places dot-sized drops with a fine oiler."
+    },
+    {
+     "kicker": "3 · Endshake",
+     "title": "A little vertical play",
+     "body": "Can you see the third wheel moving slightly up and down? (We exaggerate it here.) Every arbor is given a little freedom between its upper and lower jewels: the [[endshake|endshake]].\n\nWithout it the arbor would be pinched and bind; with too much the wheel tilts and meshes badly. The right endshake is about 0.01–0.03 mm, checked by lifting the wheel gently with tweezers and feeling it."
+    },
+    {
+     "kicker": "4 · Poising",
+     "title": "Balancing the cage",
+     "body": "Because the tourbillon cage is always turning, any imbalance would itself cause errors. So the assembler [[poising|poises]] the cage.\n\nSupported only by its arbor, it must rest still in any position. If the heavy side swings down, a tiny amount of material is removed or a screw adjusted. With all its parts, this cage weighs less than a gram."
+    },
+    {
+     "kicker": "5 · Casing",
+     "title": "Casing and final checks",
+     "body": "With the movement complete, the dial and hands are fitted, the movement goes into the case with its gaskets, and the back is screwed down.\n\nEven after casing, the watch is checked for days on a [[timegrapher|timegrapher]], in different positions and temperatures. Only watches within the limits are delivered. The balance trace is shown here. And so a watch comes to life."
+    }
+   ]
+  },
+  "casedial": {
+   "title": "Case & Dial",
+   "en": "ケース・文字盤職人",
+   "blurb": "Sapphire, gaskets, guilloché, applied indices and the crown.",
+   "intro": "The case protects the movement and the dial shows the time beautifully. See the art of contrasting finishes, the defences against water and the machine that engraves patterns.",
+   "scenes": [
+    {
+     "kicker": "1 · The case",
+     "title": "Contrasting finishes",
+     "body": "The flanks of the case are brushed, the edges of the bezel and lugs mirror-polished. The same metal looks completely different depending on its finish.\n\nBrushing aligns fine scratches in one direction and hides fingerprints and small marks; mirror polishing uses ever finer abrasives. Keeping the line between the two finishes crisp is the craftsman's skill. You can switch to a gold case in Settings."
+    },
+    {
+     "kicker": "2 · Sapphire crystal",
+     "title": "Scratch-proof, low-glare",
+     "body": "The crystal is sapphire — [[corundum|corundum]], the same as ruby, only with different trace elements. At 9 on the Mohs scale it almost never scratches in daily use.\n\nIts surface carries an [[arCoating|anti-reflective coating]] of ultra-thin layers. Light reflected from the layers cancels out, so reflections drop and the dial is easier to read. The faint blue tint comes from these layers. Use the buttons to compare."
+    },
+    {
+     "kicker": "3 · Gaskets",
+     "title": "Keeping out water and dust",
+     "body": "We are looking at the case cut in half. Rubber rings — gaskets — sit around the crystal and the case back.\n\nSqueezed into their grooves, they seal the gaps against water and dust. There is a gasket at the crown too. Rubber ages, so gaskets are replaced at every service."
+    },
+    {
+     "kicker": "4 · Guilloché",
+     "title": "A machine that engraves patterns",
+     "body": "The wave pattern on the dial is [[guilloche|guilloché]]. On a [[roseEngine|rose engine]] a graver cuts lines one by one into a rotating dial.\n\nThe machine carries a wavy template (a rosette). As the dial turns, the graver follows the template back and forth and cuts petal-like waves. Shifting the graver slightly for each new line and repeating it dozens of times creates a three-dimensional pattern that changes with the light."
+    },
+    {
+     "kicker": "5 · Indices",
+     "title": "Applied indices",
+     "body": "The hour markers are not printed: they are small polished metal parts applied to the dial. Each has tiny feet that go into holes in the dial.\n\nBeing three-dimensional, they sparkle as the light moves and are easy to read in dim light. Setting them precisely with tweezers is delicate work."
+    },
+    {
+     "kicker": "6 · The crown",
+     "title": "Crown and tube",
+     "body": "The crown passes through a tube fitted in the case and connects to the winding stem inside. A gasket between tube and crown keeps water out while you turn or pull it.\n\nThe fluting on its side gives your fingers grip, and its end carries the brand's \"h\". It is turning slowly now — the very start of the winding we saw in Chapter 1."
+    }
+   ]
+  }
+ },
+ "widgets": {
+  "unit": {
+   "s": "s",
+   "min": "min",
+   "h": "h",
+   "teeth": "T"
+  },
+  "reserve": {
+   "label": "Power reserve",
+   "wind": "Hold to wind"
+  },
+  "ratio": {
+   "title": "Teeth and speed",
+   "fixed": "fixed wheel",
+   "perRev": " per turn",
+   "formula": "Cage 60 s = escape wheel 5 s × 12 / Centre wheel 1 h = cage 1 min × (80÷10) × (75÷10)",
+   "note": "This scene runs 30× faster."
+  },
+  "esc": {
+   "title": "Four phases of the escapement",
+   "unlock": "Unlock",
+   "unlockText": "The impulse jewel moves the lever and frees the tooth",
+   "impulse": "Impulse",
+   "impulseText": "The tooth pushes the pallet stone and gives energy to the balance",
+   "drop": "Drop",
+   "dropText": "The tooth leaves; the wheel advances a little",
+   "lock": "Lock",
+   "lockText": "The other stone stops a tooth (the balance swings freely)"
+  },
+  "balance": {
+   "title": "Balance oscillation",
+   "freq": "Frequency",
+   "vph": "Vibrations / hour",
+   "period": "One swing"
+  },
+  "jewels": {
+   "title": "Jewels in this watch: {n}",
+   "note": "The faster a part moves, the more likely it runs in jewels."
+  },
+  "motion": {
+   "title": "Motion-works ratio",
+   "formula": "Cannon 12 → minute wheel 36 (÷3) → minute pinion 10 → hour wheel 40 (÷4) = ÷12",
+   "watchTime": "Time shown by the watch"
+  },
+  "gravity": {
+   "title": "Positional error (example)",
+   "note": "DU/DD = dial up/down, CU/CD/CL/CR = crown up/down/left/right. The blue line is the average of the four vertical positions produced by the tourbillon."
+  },
+  "auto": {
+   "title": "Self-winding effect",
+   "rotor": "Rotor angle",
+   "gain": "Energy gained by rocking"
+  },
+  "rate": {
+   "title": "Adjusting the rate",
+   "note": "A tiny change of frequency changes the daily rate this much."
+  },
+  "state": {
+   "title": "Work status",
+   "growth": "Crystal growth",
+   "cut": "Wafers cut",
+   "fit": "Interference",
+   "progress": "Progress",
+   "temp": "Temperature",
+   "teeth": "Teeth cut",
+   "poise": "Remaining imbalance",
+   "rings": "Lines engraved"
+  },
+  "oils": {
+   "title": "Oil types",
+   "o1": "Thin watch oil (fast pivots)",
+   "o2": "Thick oil / grease (heavy loads)",
+   "o3": "Escapement oil (pallet stones)",
+   "o4": "Grease for the keyless works"
+  },
+  "toggle": {
+   "title": "Compare"
+  }
+ },
+ "vignette": {
+  "flame": "Oxy-hydrogen flame",
+  "boule": "Growing boule",
+  "powder": "Alumina powder feed",
+  "rod": "Ruby rod",
+  "saw": "Diamond blade",
+  "drilled": "Drilled jewel",
+  "flat": "Flat jewel (section)",
+  "olive": "Olive jewel (section)",
+  "cap": "Cap jewel (section)",
+  "palletStone": "Pallet stone",
+  "impulsePin": "Impulse pin",
+  "oil": "Oil (held by surface tension)",
+  "pivot": "Pivot",
+  "capStone": "Cap jewel",
+  "jewel": "Jewel",
+  "plate": "Main plate",
+  "pusher": "Pushing tool",
+  "spring": "Shock spring",
+  "staff": "Balance staff",
+  "cotes": "Côtes de Genève",
+  "cotesTool": "Rotating lap",
+  "perlage": "Perlage",
+  "perlageTool": "Rotating peg",
+  "screws": "Blued screws",
+  "tray": "Brass tray",
+  "satin": "Satin finish",
+  "blackPolish": "Black polish",
+  "wheel": "Wheel (30 T)",
+  "pinion": "Pinion (8 leaves)",
+  "cycloid": "Cycloidal (watch)",
+  "involute": "Involute (machine)",
+  "profileTitle": "Compare tooth forms",
+  "flyCutter": "Fly cutter",
+  "blank": "Wheel blank",
+  "arbor": "Arbor",
+  "burnisher": "Burnisher",
+  "dialBlank": "Dial blank",
+  "graver": "Graver",
+  "arOn": "AR coating",
+  "arOff": "No coating",
+  "arTitle": "Compare coatings"
+ },
+ "whatif": {
+  "title": "What-if experiments",
+  "kicker": "Think about it",
+  "intro": "What happens if we change one part? Try it and discover why each part matters.",
+  "reset": "Reset everything",
+  "escape": {
+   "title": "What if there were no escapement?",
+   "q": "We remove the pallet fork, so nothing holds back the escape wheel.",
+   "a": "The wheels race and 72 hours of energy is gone in seconds. The escapement is the gatekeeper that spends energy little by little, at a fixed rhythm.",
+   "btn": "Remove the lever",
+   "toast": "Lever removed! The wheels are racing…",
+   "restored": "Lever back in place and mainspring rewound."
+  },
+  "length": {
+   "title": "What if the hairspring length changed?",
+   "q": "A longer hairspring is weaker, a shorter one stronger. How does the frequency change?",
+   "a": "Frequency is inversely proportional to the square root of the length. Only 0.1 % longer and the watch loses about 40 seconds a day — which is why regulators adjust it to the micron.",
+   "len": "Length change"
+  },
+  "cage": {
+   "title": "What if the tourbillon stopped?",
+   "q": "We freeze the cage and compare the errors in vertical positions (a thought experiment).",
+   "a": "With the cage turning, the four vertical positions average out to the blue line. Stopped, the watch gains or loses depending on its orientation.",
+   "run": "Turning",
+   "stop": "Stopped",
+   "avg": "Vertical average",
+   "spread": "Spread by orientation"
+  },
+  "metal": {
+   "title": "What if the jewels were metal?",
+   "q": "We replace the ruby bearings with steel ones.",
+   "a": "Friction rises, the amplitude drops and energy is used faster, so the power reserve shrinks. The bearings also wear, and the accuracy does not last.",
+   "ruby": "Ruby",
+   "steel": "Steel",
+   "reserve": "Max power reserve"
+  }
+ },
+ "glossary": {
+  "terms": {
+   "amplitude": {
+    "term": "Amplitude",
+    "en": "振り角",
+    "def": "How far the balance turns from its rest position, about 270–310° when well wound."
+   },
+   "beat": {
+    "term": "Beat",
+    "en": "ビート",
+    "def": "One half swing of the balance (one vibration). This watch beats 8 times a second."
+   },
+   "vph": {
+    "term": "Vibrations per hour",
+    "en": "毎時振動数",
+    "def": "The number of vibrations in an hour. A 4 Hz balance makes 28,800 vph."
+   },
+   "frequency": {
+    "term": "Frequency",
+    "en": "振動数",
+    "def": "How many full swings the balance makes per second, in Hz."
+   },
+   "escapement": {
+    "term": "Escapement",
+    "en": "脱進機",
+    "def": "Escape wheel and lever that cut rotation into steps and pass energy to the balance."
+   },
+   "lever": {
+    "term": "Pallet fork (lever)",
+    "en": "アンクル",
+    "def": "The T-shaped lever that locks and releases the escape wheel."
+   },
+   "impulse": {
+    "term": "Impulse",
+    "en": "インパルス",
+    "def": "The moment a tooth pushes a pallet stone and gives energy to the balance."
+   },
+   "lock": {
+    "term": "Lock",
+    "en": "ロック",
+    "def": "The state in which a tooth rests against a pallet stone."
+   },
+   "drop": {
+    "term": "Drop",
+    "en": "ドロップ",
+    "def": "The small free movement of the escape wheel between leaving one stone and landing on the other."
+   },
+   "balance": {
+    "term": "Balance wheel",
+    "en": "テンプ",
+    "def": "The oscillating ring that measures time — the heart of the watch."
+   },
+   "hairspring": {
+    "term": "Hairspring",
+    "en": "ヒゲゼンマイ",
+    "def": "A hair-fine spiral spring that returns the balance to its rest position."
+   },
+   "overcoil": {
+    "term": "Overcoil",
+    "en": "巻き上げヒゲ",
+    "def": "A hairspring whose outer end is lifted and bent inward, so it breathes around its centre and improves [[isochronism|isochronism]]."
+   },
+   "mainspring": {
+    "term": "Mainspring",
+    "en": "ぜんまい",
+    "def": "The long coiled spring in the barrel that stores energy."
+   },
+   "barrel": {
+    "term": "Barrel",
+    "en": "香箱",
+    "def": "The drum holding the mainspring; its teeth drive the gear train."
+   },
+   "powerReserve": {
+    "term": "Power reserve",
+    "en": "パワーリザーブ",
+    "def": "How long the watch runs from fully wound — about 72 hours here."
+   },
+   "gearTrain": {
+    "term": "Gear train",
+    "en": "輪列",
+    "def": "The row of wheels carrying energy from the barrel to the escapement."
+   },
+   "pinion": {
+    "term": "Pinion",
+    "en": "カナ",
+    "def": "A small gear with few leaves; driven by a large wheel, it turns faster."
+   },
+   "module": {
+    "term": "Module",
+    "en": "モジュール",
+    "def": "A measure of tooth size: pitch diameter ÷ number of teeth (mm). Meshing gears share the same module."
+   },
+   "cycloid": {
+    "term": "Cycloidal tooth",
+    "en": "サイクロイド歯形",
+    "def": "The rounded, ogival tooth form of watch wheels; it meshes smoothly even with small pinions."
+   },
+   "involute": {
+    "term": "Involute tooth",
+    "en": "インボリュート歯形",
+    "def": "The tooth form of most machine gears; tolerant of centre-distance errors and strong under load."
+   },
+   "jewel": {
+    "term": "Jewel",
+    "en": "石",
+    "def": "A synthetic ruby used as a bearing to reduce friction and wear."
+   },
+   "oilSink": {
+    "term": "Oil sink",
+    "en": "油だまり",
+    "def": "A dish on the jewel surface that holds oil in place by surface tension."
+   },
+   "chaton": {
+    "term": "Chaton",
+    "en": "シャトン",
+    "def": "A metal ring holding a jewel, fixed to a bridge with screws."
+   },
+   "shockProtection": {
+    "term": "Shock protection",
+    "en": "耐震装置",
+    "def": "A spring setting for the balance jewels that protects the fine pivots from knocks."
+   },
+   "tourbillon": {
+    "term": "Tourbillon",
+    "en": "トゥールビヨン",
+    "def": "A rotating cage carrying escapement and balance to average out [[positionalError|positional errors]]."
+   },
+   "flyingTourbillon": {
+    "term": "Flying tourbillon",
+    "en": "フライング・トゥールビヨン",
+    "def": "A tourbillon supported from below only, with no upper bridge."
+   },
+   "positionalError": {
+    "term": "Positional error",
+    "en": "姿勢差",
+    "def": "The difference in rate between different orientations of the watch."
+   },
+   "isochronism": {
+    "term": "Isochronism",
+    "en": "等時性",
+    "def": "The property of keeping the same period regardless of amplitude."
+   },
+   "rate": {
+    "term": "Rate",
+    "en": "歩度",
+    "def": "How many seconds per day a watch gains or loses."
+   },
+   "hacking": {
+    "term": "Hacking",
+    "en": "秒針停止",
+    "def": "Stopping the balance when the crown is pulled so the time can be set to the second."
+   },
+   "keyless": {
+    "term": "Keyless works",
+    "en": "キーレス機構",
+    "def": "The mechanism that switches the crown between winding and setting."
+   },
+   "rotor": {
+    "term": "Rotor",
+    "en": "ローター",
+    "def": "A semicircular weight turned by wrist motion that winds the mainspring."
+   },
+   "reverser": {
+    "term": "Reversing wheel",
+    "en": "切替車",
+    "def": "Wheels that turn both rotor directions into one-way winding."
+   },
+   "motionWorks": {
+    "term": "Motion works",
+    "en": "表示輪列",
+    "def": "The wheels under the dial giving the 12:1 ratio between minute and hour hands."
+   },
+   "cannonPinion": {
+    "term": "Cannon pinion",
+    "en": "筒カナ",
+    "def": "The tubular pinion carrying the minute hand; it slips only when the hands are set."
+   },
+   "anglage": {
+    "term": "Anglage",
+    "en": "アングラージュ",
+    "def": "Bevelling the edges of a part and polishing the bevel to a mirror."
+   },
+   "cotes": {
+    "term": "Côtes de Genève",
+    "en": "コート・ド・ジュネーブ",
+    "def": "Parallel wave stripes applied to bridges."
+   },
+   "perlage": {
+    "term": "Perlage",
+    "en": "ペルラージュ",
+    "def": "A pattern of small overlapping circles on plates."
+   },
+   "bluing": {
+    "term": "Heat bluing",
+    "en": "焼き青",
+    "def": "Heating steel to about 290 °C so a thin oxide film turns it blue."
+   },
+   "blackPolish": {
+    "term": "Black polish",
+    "en": "黒磨き",
+    "def": "Polishing a flat surface into a perfect mirror that looks black from most angles."
+   },
+   "guilloche": {
+    "term": "Guilloché",
+    "en": "ギョーシェ",
+    "def": "A regular pattern of fine lines engraved by machine."
+   },
+   "roseEngine": {
+    "term": "Rose engine",
+    "en": "ローズエンジン",
+    "def": "A machine that moves a graver along a template to engrave guilloché."
+   },
+   "sapphire": {
+    "term": "Sapphire crystal",
+    "en": "サファイアガラス",
+    "def": "A scratch-resistant watch glass made of synthetic sapphire."
+   },
+   "arCoating": {
+    "term": "Anti-reflective coating",
+    "en": "反射防止コーティング",
+    "def": "Ultra-thin layers that reduce reflections by interference."
+   },
+   "gasket": {
+    "term": "Gasket",
+    "en": "パッキン",
+    "def": "A rubber ring that seals gaps against water and dust."
+   },
+   "endshake": {
+    "term": "Endshake",
+    "en": "アガキ",
+    "def": "The small vertical play of an arbor between its jewels."
+   },
+   "poising": {
+    "term": "Poising",
+    "en": "釣り合い取り",
+    "def": "Removing the imbalance of a rotating part."
+   },
+   "verneuil": {
+    "term": "Verneuil process",
+    "en": "ベルヌーイ法",
+    "def": "Growing crystals by melting powder in a flame (flame fusion), practical since the early 1900s."
+   },
+   "corundum": {
+    "term": "Corundum",
+    "en": "コランダム",
+    "def": "Crystalline aluminium oxide: red is ruby, other colours are sapphire."
+   },
+   "mohs": {
+    "term": "Mohs hardness",
+    "en": "モース硬度",
+    "def": "A 1–10 scale of scratch resistance. Ruby is 9, diamond 10."
+   },
+   "interference": {
+    "term": "Press fit",
+    "en": "圧入",
+    "def": "Making a hole slightly smaller than the part and pressing it in to hold it."
+   },
+   "timegrapher": {
+    "term": "Timegrapher",
+    "en": "歩度測定器",
+    "def": "A machine that listens to the ticking to measure rate, amplitude and beat error."
+   }
+  }
+ }
+}
