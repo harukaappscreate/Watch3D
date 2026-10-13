@@ -7,6 +7,18 @@ in **Japanese and English**.
 Three.js r186.1 で作った、完全手続き生成の **3D機械式腕時計**（自動巻き＋フライング・トゥールビヨン）です。
 ショーケースに展示され、分解と組立をループで見せ、**日本語／英語**で時計のしくみを学べます。
 
+
+## ▶ Live demo / デモを試す
+**[https://harukaappscreate.github.io/Watch3D/](https://harukaappscreate.github.io/Watch3D/)**
+
+インストール不要。PC・スマホのブラウザでそのまま遊べます（Chrome / Safari / Edge / Firefox の最新版推奨）。
+No install needed — runs in any modern desktop or mobile browser.
+
+- デモから始める / Start with the demo loop: [https://harukaappscreate.github.io/Watch3D/?mode=loop](https://harukaappscreate.github.io/Watch3D/?mode=loop)
+- 自由に観察する / Explore mode: [https://harukaappscreate.github.io/Watch3D/?mode=explore](https://harukaappscreate.github.io/Watch3D/?mode=explore)
+- 動作が重いときは軽量モード / Light mode for slower devices: [https://harukaappscreate.github.io/Watch3D/?q=low](https://harukaappscreate.github.io/Watch3D/?q=low)
+- サウンドは右上のボタンでオン / Tap the speaker icon (top right) to enable sound.
+
 ---
 
 ## 日本語
